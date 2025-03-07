@@ -74,6 +74,7 @@ Reflection 3: Why did you choose these features? How might they impact classific
 - 4.1 Define X (features) and y (target).
 - 4.2 Train a classification model using Scikit-Learn (e.g., Decision Tree, Random Forest, Logistic Regression).
 - 4.3 Report accuracy, precision, recall, and F1-score.
+- 4.4 Report Confusion Matrix (as a heatmap) to visualize how well the model distinguishes between classes.
 
 Reflection 4: How well did the model perform? Any surprises in the results?
 
