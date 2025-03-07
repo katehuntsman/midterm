@@ -1,4 +1,12 @@
-# Recommended Datasets for Classification
+# Datasets for Classification
+
+
+A suitable dataset for classification includes:  
+- Categorical or numerical features that help predict the target.  
+- A **categorical target variable** for classification (binary or multiclass).  
+- Enough samples per class to effectively train and test a model. 
+
+## Recommendations
 
 | Dataset | Target Variable | Features | Use Case | Link |
 |---------|----------------|----------|----------|------|
