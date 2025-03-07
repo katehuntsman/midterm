@@ -55,7 +55,7 @@ Reflection 1: What do you notice about the dataset? Are there any data issues?
 ---
 
 ### Section 2. Visualize Feature Distributions
-- 2.1 Create histograms, boxplots, and scatterplots.
+- 2.1 Create histograms, boxplots, and count plots for categorical variables.
 - 2.2 Identify patterns or anomalies in feature distributions.
 
 Reflection 2: What patterns or anomalies do you see? Do any features stand out?
