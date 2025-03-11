@@ -54,11 +54,21 @@ Reflection 1: What do you notice about the dataset? Are there any data issues?
 
 ---
 
-### Section 2. Visualize Feature Distributions
-- 2.1 Create histograms, boxplots, and count plots for categorical variables.
-- 2.2 Identify patterns or anomalies in feature distributions.
+### Section 2. Data Exploration and Preparation
+- 2.1 Explore data patterns and distributions
+  - Create histograms, boxplots, and count plots for categorical variables (as applicable).
+  - Identify patterns, outliers, and anomalies in feature distributions.
+  - Check for class imbalance in the target variable (as applicable).
+- 2.2 Handle missing values and clean data
+  - Impute or drop missing values (as applicable).
+  - Remove or transform outliers (as applicable).
+  - Convert categorical data to numerical format using encoding (as applicable).
+- 2.3 Feature selection and engineering
+  - Create new features (as applicable).
+  - Transform or combine existing features to improve model performance (as applicable).
+  - Scale or normalize data (as applicable).
 
-Reflection 2: What patterns or anomalies do you see? Do any features stand out?
+Reflection 2: What patterns or anomalies do you see? Do any features stand out? What preprocessing steps were necessary to clean and improve the data? Did you create or modify any features to improve performance?
 
 ---
 
