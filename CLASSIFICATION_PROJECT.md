@@ -73,26 +73,36 @@ Reflection 2: What patterns or anomalies do you see? Do any features stand out? 
 ---
 
 ### Section 3. Feature Selection and Justification
-- 3.1 Choose two to four features to use as input for classification.
-- 3.2 Justify your selection with reasoning.
+- 3.1 Choose features and target
+  - Select two or more input features (numerical for regression, numerical and/or categorical for classification)
+  - Select a target variable (as applicable)
+    - Regression: Continuous target variable (e.g., price, temperature).
+    - Classification: Categorical target variable (e.g., gender, species).
+    - Clustering: No target variable.
+  - Justify your selection with reasoning.
+- 3.2 Define X and y
+  - Assign input features to X
+  - Assign target variable to y (as applicable)
 
-Reflection 3: Why did you choose these features? How might they impact classification?
+Reflection 3: Why did you choose these features? How might they impact predictions or accuracy?
 
 ---
 
-### Section 4. Train a Classification Model
-- 4.1 Define X (features) and y (target).
-- 4.2 Train a classification model using Scikit-Learn (e.g., Decision Tree, Random Forest, Logistic Regression).
-- 4.3 Report accuracy, precision, recall, and F1-score.
-- 4.4 Report Confusion Matrix (as a heatmap) to visualize how well the model distinguishes between classes.
+### Section 4. Train a Model (Classification: Choose 1: Decision Tree, Random Forest, Logistic Regression)
+- 4.1 Split the data into training and test sets using train_test_split (or StratifiedShuffleSplit if class imbalance is an issue).
+- 4.2 Train model using Scikit-Learn model.fit() method.
+- 4.3 Evalulate performance, for example:
+  - Regression: R^2, MAE, RMSE (RMSE has been recently updated)
+  - Classification: Accuracy, Precision, Recall, F1-score, Confusion Matrix
+  - Clustering: Inertia, Silhouette Score
 
 Reflection 4: How well did the model perform? Any surprises in the results?
 
 ---
 
-### Section 5. Compare Alternative Models
-- 5.1 Train an alternative classifier (e.g., Random Forest if Decision Tree was used initially).
-- 5.2 Compare performance metrics between both models.
+### Section 5. Improve the Model or Try Alternates (Implement a Second Option)
+- 5.1 Train an alternative classifier (e.g., Decision Tree, Random Forest, Logistic Regression) OR adjust hyperparameters on the original model.
+- 5.2 Compare performance of all models across the same performance metrics.
 
 Reflection 5: Which model performed better? Why might one classifier be more effective in this specific case?
 
@@ -110,12 +120,12 @@ Reflection 6: What did you learn from this project?
 
 ## Tasks to Complete the Assignment
 
-1. Create a GitHub repository named ml_classification_yourname.  
-1. Upload your dataset to a data/ folder in the repository.  
+1. Create a GitHub repository named **ml_classification_yourname**.  
+1. Upload your dataset to a **data folder** in the repository.  
 1. Develop a Jupyter Notebook (classification_yourname.ipynb) structured as outlined above.  
 1. Complete and write reflections for each section as you work.
-1. Write a README.md summarizing your project, dataset, and findings.  (See below).
-1. Review a classmate’s project and provide feedback in peer_review.md. (See below).
+1. Write a README.md summarizing your project, dataset, and findings (see below).
+1. Review a classmate’s project and provide feedback in peer_review.md (see below).
 
 ---
 
@@ -124,21 +134,24 @@ Reflection 6: What did you learn from this project?
 Include a professional README.md that introduces your project. Include:
 - a clickable link to your notebook file.
 - a clickable link to your your peer review Markdown file.
-- Instructions on how to set up your virtual environment and run your notebook locally. 
+- Instructions on how to set up your virtual environment and run your notebook locally.
+
+---
 
 ## Peer Review (Required)
 
 Review one other GitHub repository and provide feedback on:
 
 1. Clarity & Organization (Is the notebook structured and easy to follow?)
-1. Feature Selection & Justification (Do the chosen features make sense?)
-1. Model Performance & Comparisons (Is the evaluation well explained?)
+1. Feature Selection & Justification (Do the chosen features make sense given the objectives?)
+1. Model Performance & Comparisons (Are the results and comparisons clearly explained?)
 1. Reflection Quality (Are insights well thought out?)
 
 Submission: Submit a short peer review document in your own repository titled peer_review.md.  
 The peer review must contain a **clickable Markdown link to the notebook (.ipynb) file reviewed** along with your personal, well-organized and presented 4-pont review. 
-
-
+Provide specifics - both positive and constructive feedback. 
+Suggest improvements where possible and explain why a different choice might be useful as well.
+Focus on actionable suggestions that the author could realistically implement.
 
 ---
 
@@ -146,9 +159,9 @@ The peer review must contain a **clickable Markdown link to the notebook (.ipynb
 
 Verify your repository contains:
 
-[ ] Jupyter Notebook (classification_yourname.ipynb) with numbered sections and reflections.  
+[ ] Jupyter Notebook with proper name, numbered sections and reflections.  
 [ ] README.md (see above)
-[ ] Dataset stored in a data/ folder.  
+[ ] Dataset, stored in a data folder.  
 [ ] Peer Review (peer_review.md).  
 
 ---
