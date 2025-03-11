@@ -46,7 +46,7 @@ Start your notebook professionally with:
 - a brief introduction that describes the problem and the dataset.
 - Import the external Python libraries used (e.g., pandas, numpy, matplotlib, seaborn, sklearn).
 
-### Section 1. Load and Explore the Data
+### Section 1. Import and Inspect the Data
 - 1.1 Load the dataset and display the first 10 rows.
 - 1.2 Check for missing values and display summary statistics.
 
