@@ -1,4 +1,4 @@
-#!/Users/katehuntsman/Projects/applied-ml-huntsman/midterm/.venv/bin/python3
+#!/Users/katehuntsman/Projects/applied-ml-huntsman/midterm/.venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
