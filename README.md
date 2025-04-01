@@ -26,9 +26,11 @@ This project focuses on classifying mushrooms as either edible or poisonous base
   - **Gill Size** and **Spore Print Color** were also strong predictors.
 
 ## Files
-- **`classification_huntsman.ipynb`**: The main Jupyter notebook containing the full analysis pipeline, including data exploration, preprocessing, model training, and evaluation.
-- **`data/mushrooms.csv`**: The dataset used for the classification task, which includes various attributes of mushrooms.
-- **`peer_review.md`**: A document with a detailed review of a classmate's work on a similar project, focusing on strengths and areas for improvement.
+## Jupyter Notebook
+[here](https://github.com/katehuntsman/midterm/blob/main/classification.ipynb). The main Jupyter notebook containing the full analysis pipeline, including data exploration, preprocessing, model training, and evaluation.
+
+## Peer Review
+[here](https://github.com/katehuntsman/midterm/blob/main/peer_review.md). A document with a detailed review of a classmate's work on a similar project, focusing on strengths and areas for improvement.
 
 ## Create and Activate Virtual Environment
 ```
